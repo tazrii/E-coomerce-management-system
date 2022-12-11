@@ -1,0 +1,61 @@
+body{
+  font-family:sans-serif;
+background-image: url(../Images/Deliveryman_login.jpg);
+background-repeat: no-repeat;
+overflow: hidden;
+background-size: cover;
+}
+.container{
+  width: 350px;
+  margin: 7% auto;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 17px 	#F7FE2E;
+
+}
+.header{
+  text-align: center;
+  padding-top: 55px;
+
+}
+.header h1 {
+  color: #FF8000;
+  font-size: 45px;
+  margin-bottom: 80px;
+
+}
+.main{
+  text-align: center;
+
+
+}
+
+.main input{
+    background-color: #ddd;
+    outline: none;
+  }
+
+
+
+.main input, button{
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: 	#333;
+  margin-bottom: 20px;
+}
+
+.main button{
+  padding-left: 0;
+  background-color: #F7FE2E;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.main button:hover,input:hover{
+  box-shadow: 2px 2px 5px  #F7FE2E;
+}

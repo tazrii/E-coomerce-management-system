@@ -1,0 +1,98 @@
+input[type=text], input[type=password], input[type=email] {
+width: 70%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+display: table-cell;
+text-align: center;
+vertical-align: center;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+
+button:hover {
+  opacity:1;
+}
+
+
+.canbutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.backimg{
+  /* The image used */
+  background-image: url("../Images/merchant.jpg");
+
+  /* Control the height of the image */
+  min-height: 740px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.backimglogin{
+  /* The image used */
+  background-image: url("../Images/merchant_login.jpg");
+
+  /* Control the height of the image */
+  min-height: 740px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.backimgenlist{
+  /* The image used */
+  background-image: url("../Images/product_enlist.jpg");
+
+  /* Control the height of the image */
+  min-height: 740px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.textarea2 {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.aligncontent {
+  position: relative;
+  max-width:800px;
+  margin: 20px;
+  padding: 16px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+  margin: auto;
+}

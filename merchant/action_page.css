@@ -1,0 +1,164 @@
+/*Login_form_css*/
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+  input[type=text], input[type=password], input[type=email] {
+  width: 70%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  display: table-cell;
+  text-align: center;
+  vertical-align: center;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Add padding to container elements */
+.container {
+  position: inherit;
+  padding: 16px;
+  max-width:500px;
+  margin:auto;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Float cancel and login buttons and add an equal width */
+.cancelbtn, .loginbtn {
+  float: left;
+  width: 35%;
+}
+
+
+/* Change styles for cancel button and login button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .loginbtn {
+    width: 50%;
+  }
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 35%;
+}
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 50%;
+  }
+}
+
+
+/*viewport*/
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img{
+  /* The image used */
+  background-image: url("../Images/Customer_Login.jpg");
+
+  /* Control the height of the image */
+  min-height: 740px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img2{
+  /* The image used */
+  background-image: url("../Images/Customer_Signup.jpg");
+
+  /* Control the height of the image */
+  min-height: 740px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container2{
+  position: relative;
+  max-width:800px;
+  margin: 20px;
+  padding: 16px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+
+
+.content {
+  position: relative;; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+
+.content {
+  position: relative;; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
